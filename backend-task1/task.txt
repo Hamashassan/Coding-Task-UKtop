@@ -1,0 +1,26 @@
+Create a simple Flask API with two endpoints. The first endpoint should accept a JSON object containing a list
+of numbers and return the sum of the numbers. The second endpoint should accept a JSON object containing
+two strings and return the concatenated result. Demonstrate error handling for invalid input.
+
+
+
+    request /sum
+{
+    [1,2,3,4,5]
+}
+    response
+{
+  "result": 15
+}
+
+
+
+    request /concat
+{
+  "str1": "Hello",
+  "str2": "World"
+}
+    response
+{
+  "result": "HelloWorld"
+}

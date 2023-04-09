@@ -1,0 +1,5 @@
+Implement a simple user authentication system using Flask. Create an endpoint for user registration that
+accepts a username and password, stores them in a dictionary (as a stand-in for a real database), and returns
+a success message. Then create an endpoint for user login that checks if the provided username and
+password match the stored values, and if so, returns an &quot;access granted&quot; message; otherwise, return an
+&quot;access denied&quot; message.
